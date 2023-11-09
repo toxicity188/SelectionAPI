@@ -1,0 +1,13 @@
+main: kor.toxicity.selection.example.SelectionExample
+version: 1.0
+name: SelectionAPI-ExamplePlugin
+author: toxicity
+api-version: 1.19
+description: An example plugin of SelectionAPI.
+load: POSTWORLD
+depend:
+  - SelectionAPI
+commands:
+  menu:
+    description: Menu command.
+    usage: /<command>

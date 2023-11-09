@@ -1,8 +1,8 @@
 package kor.toxicity.selection.api.nms;
 
-import net.kyori.adventure.text.Component;
-import org.jetbrains.annotations.Nullable;
+import org.bukkit.inventory.ItemStack;
+import org.jetbrains.annotations.NotNull;
 
-public interface VirtualTextDisplay extends VirtualDisplay {
-    void text(@Nullable Component component);
+public interface VirtualItemDisplay extends VirtualDisplay {
+    void item(@NotNull ItemStack itemStack);
 }

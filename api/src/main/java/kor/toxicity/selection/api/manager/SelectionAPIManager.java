@@ -1,2 +1,5 @@
-package kor.toxicity.selection.api.manager;public interface SelectionAPIManager {
+package kor.toxicity.selection.api.manager;
+
+public interface SelectionAPIManager {
+    void reload();
 }

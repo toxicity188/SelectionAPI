@@ -1,4 +1,8 @@
 package kor.toxicity.selection.api.manager;
 
-public interface FileManager {
+import kor.toxicity.selection.api.registry.SkinRegistry;
+import org.jetbrains.annotations.NotNull;
+
+public interface SkinManager extends SelectionAPIManager {
+    @NotNull SkinRegistry getRegistry();
 }

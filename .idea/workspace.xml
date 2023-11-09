@@ -4,7 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f843538-446f-4580-a857-9db8669d13ee" name="변경" comment="" />
+    <list default="true" id="4f843538-446f-4580-a857-9db8669d13ee" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/SelectionAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/config/APIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/data/ButtonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/data/ItemDisplayData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/data/SkinData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/exception/ConnectionFailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/exception/EmptyButtonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/exception/SelectionAPIException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/manager/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/manager/SelectionAPIManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/manager/SkinManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/menu/CreationStrategies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/menu/CreationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/menu/CreationStrategyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/menu/MenuLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/menu/SelectionMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/menu/SelectionMenuBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/menu/SelectionMenuTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/nms/NMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/nms/VirtualDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/nms/VirtualEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/nms/VirtualItemDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/nms/VirtualTextDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/registry/SkinRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/java/kor/toxicity/selection/example/SelectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/resources/barrier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nms/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nms/v1_19_R3/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nms/v1_19_R3/src/main/java/kor/toxicity/selection/nms/v1_19_R3/NMSImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nms/v1_20_R1/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nms/v1_20_R1/src/main/java/kor/toxicity/selection/nms/v1_20_R1/NMSImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nms/v1_20_R2/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nms/v1_20_R2/src/main/java/kor/toxicity/selection/nms/v1_20_R2/NMSImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/SelectionAPIImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/config/APIConfigImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/data/FileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/manager/ConfigManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/manager/SkinManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/menu/SelectionMenuBuilderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/menu/SelectionMenuImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/registry/SkinRegistryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/util/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/util/VectorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,25 +77,98 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Record" />
+        <option value="Class" />
+        <option value="package-info" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2Xncx5EgQZ1mDfqjpW8ZquwMkBc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/angry/intellij/SelectionAPI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.35327965&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\angry\intellij\SelectionAPI\nms\v1_20_R2" />
+      <recent name="C:\Users\angry\intellij\SelectionAPI\nms\v1_20_R1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kor.toxicity.selection.api.nms" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SelectionAPI [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SelectionAPI [build]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">

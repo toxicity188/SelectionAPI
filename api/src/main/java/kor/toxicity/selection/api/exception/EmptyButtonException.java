@@ -1,2 +1,4 @@
-package kor.toxicity.selection.api.exception;public class EmptyButtonException {
+package kor.toxicity.selection.api.exception;
+
+public class EmptyButtonException extends SelectionAPIException {
 }

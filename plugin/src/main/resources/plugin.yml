@@ -1,0 +1,15 @@
+main: kor.toxicity.selection.SelectionAPIImpl
+name: SelectionAPI
+version: ${version}
+author: toxicity
+description: An api for selection.
+load: POSTWORLD
+api-version: 1.19
+libraries:
+  - "net.kyori:adventure-api:${adventure}"
+  - "net.kyori:adventure-platform-bukkit:${platform}"
+commands:
+  selection:
+    aliases: se
+    description: A reload command of SelectionAPI.
+    usage: /<command>
