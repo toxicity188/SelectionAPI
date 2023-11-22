@@ -37,7 +37,7 @@ public abstract class SelectionAPI extends JavaPlugin {
     public abstract void reloadAll();
     public abstract @NotNull SelectionMenuBuilder builder();
 
-    public final CompletableFuture<Void> reloadAllAsync() {
+    public final @NotNull CompletableFuture<Void> reloadAllAsync() {
         return CompletableFuture.runAsync(this::reloadAll);
     }
 }

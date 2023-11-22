@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f843538-446f-4580-a857-9db8669d13ee" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/menu/SelectionMenuImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/src/main/java/kor/toxicity/selection/menu/SelectionMenuImpl.java" afterDir="false" />
+    <list default="true" id="4f843538-446f-4580-a857-9db8669d13ee" name="변경" comment="update selection menu.">
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/SelectionAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/kor/toxicity/selection/api/SelectionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/example/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/angry/IntelliJ/SelectionAPI",
@@ -121,6 +120,31 @@
       <option name="presentableId" value="Default" />
       <updated>1699268528300</updated>
     </task>
+    <task id="LOCAL-00001" summary="update selection menu.">
+      <option name="closed" value="true" />
+      <created>1700625006949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700625006949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <MESSAGE value="update selection menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="update selection menu." />
   </component>
 </project>

@@ -3,6 +3,8 @@ dependencies {
     compileOnly(project(":api"))
 }
 
-tasks.jar {
-    archiveFileName.set("SelectionAPI-ExamplePlugin.jar")
+tasks {
+    jar {
+        archiveFileName.set("SelectionAPI-ExamplePlugin.jar")
+    }
 }
