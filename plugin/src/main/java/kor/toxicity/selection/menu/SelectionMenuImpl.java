@@ -38,7 +38,7 @@ public class SelectionMenuImpl implements SelectionMenu {
     public @NotNull SelectionMenuTask open(@NotNull Player player) {
         var playerLocation = player.getLocation().add(0, 1.5, 0);
         var yaw = VectorUtil.yawToRadian(playerLocation.getYaw());
-        var itemOrigin = playerLocation.clone().add(VectorUtil.rotateYaw(strategy.getOrigin(), yaw));
+        var itemOrigin = playerLocation.clone().add(VectorUtil.rotateYaw(strategy.getOrigin().clone(), yaw));
         itemOrigin.setYaw(itemOrigin.getYaw() + 180);
 
         var entityList = new ArrayList<SelectionEntity>();
