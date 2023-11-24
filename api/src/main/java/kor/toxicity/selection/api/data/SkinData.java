@@ -26,6 +26,9 @@ public record SkinData(@Nullable String name, @NotNull URL url, @NotNull Vector 
     public static @NotNull SkinData of(@NotNull RenderedImage image) {
         return SelectionAPI.getInstance().getSkinManager().getRegistry().create(image);
     }
+    public static @NotNull SkinData of(@NotNull URL url) {
+        return SelectionAPI.getInstance().getSkinManager().getRegistry().create(url);
+    }
 
     @Override
     public @NotNull ItemDisplayData get() {

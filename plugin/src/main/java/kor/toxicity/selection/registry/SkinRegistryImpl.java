@@ -52,4 +52,11 @@ public class SkinRegistryImpl implements SkinRegistry {
             throw new ConnectionFailException(e);
         }
     }
+
+    @Override
+    public @NotNull SkinData create(@Nullable String name, @NotNull Vector scale, @NotNull URL url) {
+        var data = new SkinData(name, url, scale);
+        if (data.name() != null) dataMap.put(data.name(), data);
+        return data;
+    }
 }

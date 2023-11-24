@@ -8,6 +8,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.awt.image.RenderedImage;
 import java.io.InputStream;
+import java.net.URL;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
@@ -39,6 +40,13 @@ public record ButtonData(@NotNull Supplier<@NotNull ItemDisplayData> skinData, @
         var display = new ItemDisplayData(itemStack, scale);
         return new ButtonData(
                 () -> display,
+                playerConsumer,
+                components
+        );
+    }
+    public static @NotNull ButtonData of(@NotNull URL url, @NotNull Consumer<Player> playerConsumer, @NotNull List<Component> components) {
+        return new ButtonData(
+                SkinData.of(url),
                 playerConsumer,
                 components
         );
